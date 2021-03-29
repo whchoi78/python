@@ -9,8 +9,7 @@ min = 0
 for line in rdr:
     if "부평" in line[0]:
         a=int(line[8].replace(",",""))
-    if min == 0 or a < min:
-        min_apt = line[4]
+        print(a)
 
         
 '''
